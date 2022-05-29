@@ -1,0 +1,110 @@
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+}
+.navegacion a:hover{
+    color: black;
+}
+.navegacion h3{
+    margin-right: 1rem;
+    color: red;
+    font-weight: 700;
+}
+.navegacion{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.principal{
+    background-image: url("img/breaking_bad2.jpg");
+    min-width: 99vw;
+    min-height: 99vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.n-serie{
+    display: flex;
+    align-items: center;
+}
+.btn-repro{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+}
+.btn-repro:hover{
+    background-color: grey;
+}
+.btn-info{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+    background-color: rgba(68, 68, 68, 0.5);
+    border-radius: 5px;
+    border: none;
+}
+.btn-info:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.mostrar{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    .ocultar{
+        display: none;
+    }
+    .mostrar{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.recomendadas{
+    background-color: rgb(24, 24, 24);
+    min-width: 99vw;
+}
+
+
+
+.populares{
+    background-color: rgb(24, 24, 24);
+    min-width: 99vw;
+}
+
+.infantiles{
+    background-color: rgb(24, 24, 24);
+    min-width: 99vw;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    background-color: rgb(24, 24, 24);
+    min-width: 99vw;
+}
+.redes{
+    display: flex;
+}
